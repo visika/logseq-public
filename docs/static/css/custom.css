@@ -1,0 +1,12 @@
+/* Link con ondina sotto
+a.external-link {
+    border-bottom: 0px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1.5px;
+}
+*/
+
+.block-content[data-type=annotation] a.prefix-link:before {
+    content: "🍦 ";
+}
